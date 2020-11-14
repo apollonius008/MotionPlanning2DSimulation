@@ -4,11 +4,11 @@ This is only a basic guidelines for collaborating in the project. This is not a 
 If you do not have the repository in your local machine then follow these steps:
 #### Linux and Mac Users
 * Go to the location where you want to keep the project and open the terminal
-* Run the command : `git clone https://github.com/apollonius008/Interactive-Learning-Platform.git`
+* Run the command : `git clone https://github.com/apollonius008/MotionPlanning2DSimulation.git`
 * Now you've completed the initial setup
 #### Windows users (may not be totally correct)
 * Go to the location where you want to keep the project and open git bash
-* Run the command : `git clone https://github.com/apollonius008/Interactive-Learning-Platform.git`
+* Run the command : `git clone https://github.com/apollonius008/MotionPlanning2DSimulation.git`
 * Now you've completed the initial setup
 
 ### Workflow for collaborators

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+  <div class="row pr-0">
+    <div class="col-md-2" id="buttons-panel">
+	<button type="button" class="btn btn-outline-primary mt-2 mb-2 btn-block" id="create-btn" title="Click to create environment">Create</button>
+	<button type="button" class="btn btn-outline-primary mt-2 mb-2 btn-block" id="done-btn" title="Click to finalize environment">Done</button>
+	<button type="button" class="btn btn-outline-primary mt-2 mb-2 btn-block" id="start-btn" title="Click to select starting position of robot">Start</button>
+	<button type="button" class="btn btn-outline-primary mt-2 mb-2 btn-block" id="end-btn" title="Click to select the target location of robot">End</button>
+	<button type="button" class="btn btn-outline-primary mt-2 mb-2 btn-block" id="run-btn" title="Click to start the algorithm">Run</button>
+    </div>
+    <div class="col-md-10 p-0 m-0" id="canvas-window">
+    </div>
+  </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="./library/p5.js"></script>
+    <script src="./library/p5.sound.min.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>

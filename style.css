@@ -5,3 +5,11 @@ html, body {
 canvas {
   display: block;
 }
+
+.container-fluid{
+    height: 100vh;
+}
+
+.container-fluid .row{
+    height: 100vh;
+}

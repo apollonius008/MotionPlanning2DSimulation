@@ -1,7 +1,11 @@
+let canvas_panel;
+let canvas;
 function setup() {
-  createCanvas(400, 400);
+	canvas_panel = document.getElementById('canvas-window');
+	canvas = createCanvas(canvas_panel.clientWidth, canvas_panel.clientHeight);
+	canvas.parent(canvas_panel);
 }
 
 function draw() {
-  background(220);
+	background(220);
 }

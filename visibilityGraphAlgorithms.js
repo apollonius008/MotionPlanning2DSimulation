@@ -90,9 +90,9 @@ class VisibilityGraph extends Graph {
 		}
 	}
 
-	drawVisibilityGraph() {
+	drawVisibilityGraph(graphColor) {
 		strokeWeight(2);
-		stroke(255, 0, 0);
+		stroke(graphColor);
 		for (let entry of this.adjList.entries()) {
 			const p1 = entry[0];
 			for (let destNode of entry[1]) {

@@ -141,6 +141,9 @@ function onRunBtnClick() {
 	$('#run-btn').prop('disabled', true);
 	visibileGraph.addSourceDestinationInGraph(start_point, end_point, width);
 	shortest_path = visibileGraph.dijkstraShortestPath(start_point, end_point);
+	if (shortest_path == null) {
+		alert('No Path Found');
+	}
 }
 
 function drawTemporaryRobot() {

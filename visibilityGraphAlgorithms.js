@@ -27,6 +27,10 @@ class VisibilityGraph extends Graph {
 			}
 		}
 
+		for (let edges of this.polygonEdgeLines) {
+			this.addEdgeUndirected(edges.startPoint, edges.endPoint, edges.getLength());
+		}
+
 	}
 
 	addSourceDestinationInGraph(src, dest, screenWidth) {
@@ -65,7 +69,7 @@ class VisibilityGraph extends Graph {
 			}
 		}
 
-		const midPoint = ((p1.x + p2.x) / 2, (p1.y + p2.y) / 2);
+		const midPoint = new Point((p1.x + p2.x) / 2, (p1.y + p2.y) / 2);
 		for (let i = 0; i < this.polygon_list.length; i++) {
 			if (this.polygon_list[i].pointIsInPolygon(midPoint, screenWidth)) {
 				return false;
